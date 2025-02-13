@@ -8,4 +8,5 @@ __all__ = ["Machine"]
 
 
 class Machine(BaseModel):
-    machines: Optional[List[Machine]] = None
+  pass
+    # machines: Optional[List[Machine]] = None

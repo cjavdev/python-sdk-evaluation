@@ -8,4 +8,5 @@ __all__ = ["Sensor"]
 
 
 class Sensor(BaseModel):
-    sensors: Optional[List[Sensor]] = None
+    pass
+    # sensors: Optional[List[Sensor]] = None

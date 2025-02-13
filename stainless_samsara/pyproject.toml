@@ -1,5 +1,5 @@
 [project]
-name = "samsara"
+name = "stainless_samsara"
 version = "0.0.1-alpha.0"
 description = "The official Python library for the samsara API"
 dynamic = ["readme"]
@@ -96,7 +96,7 @@ include = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/samsara"]
+packages = ["src/stainless_samsara"]
 
 [tool.hatch.build.targets.sdist]
 # Basically everything except hidden files/directories (such as .github, .devcontainers, .python-version, etc)
