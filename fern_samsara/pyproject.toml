@@ -1,8 +1,8 @@
 [project]
-name = "samsara"
+name = "fern_samsara"
 
 [tool.poetry]
-name = "samsara"
+name = "fern_samsara"
 version = "0.1.0"
 description = ""
 readme = "README.md"
@@ -27,7 +27,7 @@ classifiers = [
     "Typing :: Typed"
 ]
 packages = [
-    { include = "samsara", from = "src"}
+    { include = "fern_samsara", from = "src"}
 ]
 
 [project.urls]
