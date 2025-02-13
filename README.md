@@ -31,4 +31,13 @@ From the root of the project, setup a python environment. Python 3.11 is preferr
 ```bash
 python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Running the examples
+
+```bash
+python stainless_example.py
+python speakeasy_example.py
+python fern_example.py
 ```
