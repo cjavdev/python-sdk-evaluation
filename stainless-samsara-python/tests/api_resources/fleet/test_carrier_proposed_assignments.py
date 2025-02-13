@@ -1,0 +1,263 @@
+# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+
+from __future__ import annotations
+
+import os
+from typing import Any, cast
+
+import pytest
+
+from samsara import Samsara, AsyncSamsara
+from tests.utils import assert_matches_type
+from samsara.types.fleet import (
+    CarrierProposedAssignmentListResponse,
+    CarrierProposedAssignmentCreateResponse,
+)
+
+base_url = os.environ.get("TEST_API_BASE_URL", "http://127.0.0.1:4010")
+
+
+class TestCarrierProposedAssignments:
+    parametrize = pytest.mark.parametrize("client", [False, True], indirect=True, ids=["loose", "strict"])
+
+    @parametrize
+    def test_method_create(self, client: Samsara) -> None:
+        carrier_proposed_assignment = client.fleet.carrier_proposed_assignments.create(
+            driver_id="42",
+            vehicle_id="123",
+        )
+        assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_method_create_with_all_params(self, client: Samsara) -> None:
+        carrier_proposed_assignment = client.fleet.carrier_proposed_assignments.create(
+            driver_id="42",
+            vehicle_id="123",
+            active_time="2020-01-27T07:06:25Z",
+            shipping_docs="Delivery 123, chips and soda",
+            trailer_ids=["123456789", "maintenanceId:250020"],
+            trailer_names=["Trailer123", "TrailerABC"],
+        )
+        assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_raw_response_create(self, client: Samsara) -> None:
+        response = client.fleet.carrier_proposed_assignments.with_raw_response.create(
+            driver_id="42",
+            vehicle_id="123",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        carrier_proposed_assignment = response.parse()
+        assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_streaming_response_create(self, client: Samsara) -> None:
+        with client.fleet.carrier_proposed_assignments.with_streaming_response.create(
+            driver_id="42",
+            vehicle_id="123",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            carrier_proposed_assignment = response.parse()
+            assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_method_list(self, client: Samsara) -> None:
+        carrier_proposed_assignment = client.fleet.carrier_proposed_assignments.list()
+        assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_method_list_with_all_params(self, client: Samsara) -> None:
+        carrier_proposed_assignment = client.fleet.carrier_proposed_assignments.list(
+            active_time="activeTime",
+            after="after",
+            driver_ids=["string"],
+            limit=1,
+        )
+        assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_raw_response_list(self, client: Samsara) -> None:
+        response = client.fleet.carrier_proposed_assignments.with_raw_response.list()
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        carrier_proposed_assignment = response.parse()
+        assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_streaming_response_list(self, client: Samsara) -> None:
+        with client.fleet.carrier_proposed_assignments.with_streaming_response.list() as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            carrier_proposed_assignment = response.parse()
+            assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_method_delete(self, client: Samsara) -> None:
+        carrier_proposed_assignment = client.fleet.carrier_proposed_assignments.delete(
+            "id",
+        )
+        assert_matches_type(str, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_raw_response_delete(self, client: Samsara) -> None:
+        response = client.fleet.carrier_proposed_assignments.with_raw_response.delete(
+            "id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        carrier_proposed_assignment = response.parse()
+        assert_matches_type(str, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    def test_streaming_response_delete(self, client: Samsara) -> None:
+        with client.fleet.carrier_proposed_assignments.with_streaming_response.delete(
+            "id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            carrier_proposed_assignment = response.parse()
+            assert_matches_type(str, carrier_proposed_assignment, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    def test_path_params_delete(self, client: Samsara) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `id` but received ''"):
+            client.fleet.carrier_proposed_assignments.with_raw_response.delete(
+                "",
+            )
+
+
+class TestAsyncCarrierProposedAssignments:
+    parametrize = pytest.mark.parametrize("async_client", [False, True], indirect=True, ids=["loose", "strict"])
+
+    @parametrize
+    async def test_method_create(self, async_client: AsyncSamsara) -> None:
+        carrier_proposed_assignment = await async_client.fleet.carrier_proposed_assignments.create(
+            driver_id="42",
+            vehicle_id="123",
+        )
+        assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_method_create_with_all_params(self, async_client: AsyncSamsara) -> None:
+        carrier_proposed_assignment = await async_client.fleet.carrier_proposed_assignments.create(
+            driver_id="42",
+            vehicle_id="123",
+            active_time="2020-01-27T07:06:25Z",
+            shipping_docs="Delivery 123, chips and soda",
+            trailer_ids=["123456789", "maintenanceId:250020"],
+            trailer_names=["Trailer123", "TrailerABC"],
+        )
+        assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_raw_response_create(self, async_client: AsyncSamsara) -> None:
+        response = await async_client.fleet.carrier_proposed_assignments.with_raw_response.create(
+            driver_id="42",
+            vehicle_id="123",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        carrier_proposed_assignment = await response.parse()
+        assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_create(self, async_client: AsyncSamsara) -> None:
+        async with async_client.fleet.carrier_proposed_assignments.with_streaming_response.create(
+            driver_id="42",
+            vehicle_id="123",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            carrier_proposed_assignment = await response.parse()
+            assert_matches_type(CarrierProposedAssignmentCreateResponse, carrier_proposed_assignment, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_method_list(self, async_client: AsyncSamsara) -> None:
+        carrier_proposed_assignment = await async_client.fleet.carrier_proposed_assignments.list()
+        assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_method_list_with_all_params(self, async_client: AsyncSamsara) -> None:
+        carrier_proposed_assignment = await async_client.fleet.carrier_proposed_assignments.list(
+            active_time="activeTime",
+            after="after",
+            driver_ids=["string"],
+            limit=1,
+        )
+        assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_raw_response_list(self, async_client: AsyncSamsara) -> None:
+        response = await async_client.fleet.carrier_proposed_assignments.with_raw_response.list()
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        carrier_proposed_assignment = await response.parse()
+        assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_list(self, async_client: AsyncSamsara) -> None:
+        async with async_client.fleet.carrier_proposed_assignments.with_streaming_response.list() as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            carrier_proposed_assignment = await response.parse()
+            assert_matches_type(CarrierProposedAssignmentListResponse, carrier_proposed_assignment, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_method_delete(self, async_client: AsyncSamsara) -> None:
+        carrier_proposed_assignment = await async_client.fleet.carrier_proposed_assignments.delete(
+            "id",
+        )
+        assert_matches_type(str, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_raw_response_delete(self, async_client: AsyncSamsara) -> None:
+        response = await async_client.fleet.carrier_proposed_assignments.with_raw_response.delete(
+            "id",
+        )
+
+        assert response.is_closed is True
+        assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+        carrier_proposed_assignment = await response.parse()
+        assert_matches_type(str, carrier_proposed_assignment, path=["response"])
+
+    @parametrize
+    async def test_streaming_response_delete(self, async_client: AsyncSamsara) -> None:
+        async with async_client.fleet.carrier_proposed_assignments.with_streaming_response.delete(
+            "id",
+        ) as response:
+            assert not response.is_closed
+            assert response.http_request.headers.get("X-Stainless-Lang") == "python"
+
+            carrier_proposed_assignment = await response.parse()
+            assert_matches_type(str, carrier_proposed_assignment, path=["response"])
+
+        assert cast(Any, response.is_closed) is True
+
+    @parametrize
+    async def test_path_params_delete(self, async_client: AsyncSamsara) -> None:
+        with pytest.raises(ValueError, match=r"Expected a non-empty value for `id` but received ''"):
+            await async_client.fleet.carrier_proposed_assignments.with_raw_response.delete(
+                "",
+            )
