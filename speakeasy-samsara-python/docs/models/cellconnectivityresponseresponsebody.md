@@ -1,0 +1,11 @@
+# CellConnectivityResponseResponseBody
+
+Gateway cellular connectivity information.
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  | Example                                                                                      |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `operator`                                                                                   | *Optional[str]*                                                                              | :heavy_minus_sign:                                                                           | The cellular network provider name.                                                          | AT&T                                                                                         |
+| `signal_bar`                                                                                 | [Optional[models.SignalBar]](../models/signalbar.md)                                         | :heavy_minus_sign:                                                                           | The cellular signal strength indicator.  Valid values: `1/4`, `2/4`, `3/4`, `4/4`, `unknown` | 1/4                                                                                          |

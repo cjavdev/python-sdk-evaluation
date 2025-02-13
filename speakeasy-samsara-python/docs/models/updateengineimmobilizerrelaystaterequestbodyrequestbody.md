@@ -1,0 +1,11 @@
+# UpdateEngineImmobilizerRelayStateRequestBodyRequestBody
+
+A request object to update a relay state.
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      | Example                                                                                          |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `id`                                                                                             | [models.ID](../models/id.md)                                                                     | :heavy_check_mark:                                                                               | The ID of the relay  Valid values: `relay1`, `relay2`                                            | relay1                                                                                           |
+| `is_open`                                                                                        | *bool*                                                                                           | :heavy_check_mark:                                                                               | The desired state of the relay. Provide `true` to open the relay, or `false` to close the relay. | false                                                                                            |

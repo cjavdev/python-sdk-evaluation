@@ -1,0 +1,9 @@
+# CustomReportsGetCustomReportRunDataResponseBody
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                   | [models.GetCustomReportRunDataObjectResponseBody](../models/getcustomreportrundataobjectresponsebody.md) | :heavy_check_mark:                                                                                       | N/A                                                                                                      |
+| `pagination`                                                                                             | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)               | :heavy_check_mark:                                                                                       | Pagination parameters.                                                                                   |

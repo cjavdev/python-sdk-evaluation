@@ -1,0 +1,9 @@
+# TrailerStatsGetTrailerStatsSnapshotResponseBody
+
+
+## Fields
+
+| Field                                                                                                      | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                     | List[[models.TrailerStatsSnapshotObjectResponseBody](../models/trailerstatssnapshotobjectresponsebody.md)] | :heavy_check_mark:                                                                                         | List of trailers and their stats                                                                           |
+| `pagination`                                                                                               | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)                 | :heavy_check_mark:                                                                                         | Pagination parameters.                                                                                     |

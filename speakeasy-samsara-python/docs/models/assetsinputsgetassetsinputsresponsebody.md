@@ -1,0 +1,9 @@
+# AssetsInputsGetAssetsInputsResponseBody
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `data`                                                                                         | List[[models.AssetsInputsResponseResponseBody](../models/assetsinputsresponseresponsebody.md)] | :heavy_check_mark:                                                                             | Array of assets inputs objects.                                                                |
+| `pagination`                                                                                   | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)     | :heavy_check_mark:                                                                             | Pagination parameters.                                                                         |

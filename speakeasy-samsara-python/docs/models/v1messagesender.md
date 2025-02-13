@@ -1,0 +1,9 @@
+# V1MessageSender
+
+
+## Fields
+
+| Field                                                                           | Type                                                                            | Required                                                                        | Description                                                                     | Example                                                                         |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `name`                                                                          | *str*                                                                           | :heavy_check_mark:                                                              | Name of user that is sending the message.                                       | John Doe                                                                        |
+| `type`                                                                          | *str*                                                                           | :heavy_check_mark:                                                              | Type of user that is sending the message. It will be either dispatch or driver. | dispatch                                                                        |

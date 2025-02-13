@@ -1,0 +1,9 @@
+# FuelEnergyGetFuelEnergyVehicleReportsResponseBody
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                             | [models.FuelEnergyVehicleReportDataObjectResponseBody](../models/fuelenergyvehiclereportdataobjectresponsebody.md) | :heavy_check_mark:                                                                                                 | Dictionary containing summarized vehicle report data.                                                              |
+| `pagination`                                                                                                       | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)                         | :heavy_check_mark:                                                                                                 | Pagination parameters.                                                                                             |

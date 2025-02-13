@@ -1,0 +1,8 @@
+# IFTAGetIFTAJurisdictionReportsResponseBody
+
+
+## Fields
+
+| Field                                                                                                            | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                           | [models.IftaJurisdictionReportDataObjectResponseBody](../models/iftajurisdictionreportdataobjectresponsebody.md) | :heavy_check_mark:                                                                                               | Dictionary containing summarized jurisdiction report data.                                                       |

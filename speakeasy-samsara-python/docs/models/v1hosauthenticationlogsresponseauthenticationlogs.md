@@ -1,0 +1,13 @@
+# V1HosAuthenticationLogsResponseAuthenticationLogs
+
+
+## Fields
+
+| Field                                                          | Type                                                           | Required                                                       | Description                                                    | Example                                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| `action_type`                                                  | *Optional[str]*                                                | :heavy_minus_sign:                                             | The log type - one of 'signin' or 'signout'                    | signin                                                         |
+| `address`                                                      | *Optional[str]*                                                | :heavy_minus_sign:                                             | DEPRECATED: THIS FIELD MAY NOT BE POPULATED                    | THIS FIELD MAY NOT BE POPULATED                                |
+| `address_name`                                                 | *Optional[str]*                                                | :heavy_minus_sign:                                             | DEPRECATED: THIS FIELD MAY NOT BE POPULATED                    | THIS FIELD MAY NOT BE POPULATED                                |
+| `city`                                                         | *Optional[str]*                                                | :heavy_minus_sign:                                             | DEPRECATED: THIS FIELD MAY NOT BE POPULATED                    | THIS FIELD MAY NOT BE POPULATED                                |
+| `happened_at_ms`                                               | *Optional[int]*                                                | :heavy_minus_sign:                                             | The time at which the event was recorded in UNIX milliseconds. | 1462881998034                                                  |
+| `state`                                                        | *Optional[str]*                                                | :heavy_minus_sign:                                             | DEPRECATED: THIS FIELD MAY NOT BE POPULATED                    | THIS FIELD MAY NOT BE POPULATED                                |

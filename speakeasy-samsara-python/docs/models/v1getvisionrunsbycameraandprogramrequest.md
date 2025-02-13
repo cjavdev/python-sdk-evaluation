@@ -1,0 +1,11 @@
+# V1getVisionRunsByCameraAndProgramRequest
+
+
+## Fields
+
+| Field                                                                                 | Type                                                                                  | Required                                                                              | Description                                                                           |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `camera_id`                                                                           | *int*                                                                                 | :heavy_check_mark:                                                                    | The camera_id should be valid for the given accessToken.                              |
+| `program_id`                                                                          | *int*                                                                                 | :heavy_check_mark:                                                                    | The configured program's ID on the camera.                                            |
+| `started_at_ms`                                                                       | *int*                                                                                 | :heavy_check_mark:                                                                    | Started_at_ms is a required param. Indicates the start time of the run to be fetched. |
+| `include`                                                                             | *Optional[str]*                                                                       | :heavy_minus_sign:                                                                    | Include is a filter parameter. Accepts 'pass', 'reject' or 'no_read'.                 |

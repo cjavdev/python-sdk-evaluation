@@ -1,0 +1,9 @@
+# GatewaysGetGatewaysResponseBody
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `data`                                                                                           | List[[models.GatewayResponseObjectResponseBody](../models/gatewayresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                               | Activated gateways                                                                               |
+| `pagination`                                                                                     | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)       | :heavy_check_mark:                                                                               | Pagination parameters.                                                                           |

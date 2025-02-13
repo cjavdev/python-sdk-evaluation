@@ -1,0 +1,9 @@
+# DocumentsGetDocumentsResponseBody
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `data`                                                                                             | List[[models.DocumentResponseObjectResponseBody](../models/documentresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                                 | Multiple documents.                                                                                |
+| `pagination`                                                                                       | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)         | :heavy_check_mark:                                                                                 | Pagination parameters.                                                                             |

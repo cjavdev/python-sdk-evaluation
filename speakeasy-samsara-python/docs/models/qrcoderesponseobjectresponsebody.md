@@ -1,0 +1,11 @@
+# QrCodeResponseObjectResponseBody
+
+A single document.
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       | Example                                                                                           |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `driver_id`                                                                                       | *int*                                                                                             | :heavy_check_mark:                                                                                | ID for the driver the QR code belongs to.                                                         | 494123                                                                                            |
+| `qr_code_link`                                                                                    | *Optional[str]*                                                                                   | :heavy_minus_sign:                                                                                | URL link to the driver assignment QR code. Included if a QR code has been created for the driver. | https://cloud.samsara.com/qr_code/18979ef6-663e-446b-8d5a-0ff0781b8bab                            |

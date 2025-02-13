@@ -1,0 +1,9 @@
+# FormTemplatesGetFormTemplatesResponseBody
+
+
+## Fields
+
+| Field                                                                                                      | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                     | List[[models.FormTemplateResponseObjectResponseBody](../models/formtemplateresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                                         | List of form templates.                                                                                    |
+| `pagination`                                                                                               | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)                 | :heavy_check_mark:                                                                                         | Pagination parameters.                                                                                     |

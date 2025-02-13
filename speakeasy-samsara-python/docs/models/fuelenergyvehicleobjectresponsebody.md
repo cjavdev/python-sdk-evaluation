@@ -1,0 +1,13 @@
+# FuelEnergyVehicleObjectResponseBody
+
+A minified vehicle object.
+
+
+## Fields
+
+| Field                                                                          | Type                                                                           | Required                                                                       | Description                                                                    | Example                                                                        |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `energy_type`                                                                  | [models.EnergyType](../models/energytype.md)                                   | :heavy_check_mark:                                                             | Type of energy used by the vehicle  Valid values: `fuel`, `hybrid`, `electric` | fuel                                                                           |
+| `external_ids`                                                                 | Dict[str, *str*]                                                               | :heavy_minus_sign:                                                             | A map of external ids                                                          |                                                                                |
+| `id`                                                                           | *Optional[str]*                                                                | :heavy_minus_sign:                                                             | ID of the vehicle                                                              | 494123                                                                         |
+| `name`                                                                         | *Optional[str]*                                                                | :heavy_minus_sign:                                                             | Name of the vehicle                                                            | Fleet Truck #1                                                                 |

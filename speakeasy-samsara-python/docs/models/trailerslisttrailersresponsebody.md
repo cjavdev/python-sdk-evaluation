@@ -1,0 +1,9 @@
+# TrailersListTrailersResponseBody
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `data`                                                                                           | List[[models.TrailerResponseObjectResponseBody](../models/trailerresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                               | List of trailer objects.                                                                         |
+| `pagination`                                                                                     | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)       | :heavy_check_mark:                                                                               | Pagination parameters.                                                                           |

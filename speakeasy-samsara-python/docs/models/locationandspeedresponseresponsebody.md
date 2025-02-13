@@ -1,0 +1,13 @@
+# LocationAndSpeedResponseResponseBody
+
+Full location and speed objects.
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          | Example                                                                              |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `asset`                                                                              | [models.AssetResponseResponseBody](../models/assetresponseresponsebody.md)           | :heavy_check_mark:                                                                   | Asset that the location readings are tied to.                                        |                                                                                      |
+| `happened_at_time`                                                                   | *str*                                                                                | :heavy_check_mark:                                                                   | UTC timestamp in RFC 3339 format of the event.                                       | 2020-01-27T07:06:25Z                                                                 |
+| `location`                                                                           | [models.LocationResponseResponseBody](../models/locationresponseresponsebody.md)     | :heavy_check_mark:                                                                   | Location object.                                                                     |                                                                                      |
+| `speed`                                                                              | [Optional[models.SpeedResponseResponseBody]](../models/speedresponseresponsebody.md) | :heavy_minus_sign:                                                                   | Speed object.                                                                        |                                                                                      |

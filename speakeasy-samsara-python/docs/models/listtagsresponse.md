@@ -1,0 +1,11 @@
+# ListTagsResponse
+
+A list of tags.
+
+
+## Fields
+
+| Field                                                                  | Type                                                                   | Required                                                               | Description                                                            |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| `data`                                                                 | List[[models.Tag](../models/tag.md)]                                   | :heavy_minus_sign:                                                     | N/A                                                                    |
+| `pagination`                                                           | [Optional[models.PaginationResponse]](../models/paginationresponse.md) | :heavy_minus_sign:                                                     | Pagination parameters.                                                 |

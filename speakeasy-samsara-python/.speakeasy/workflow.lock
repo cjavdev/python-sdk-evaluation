@@ -1,0 +1,36 @@
+speakeasyVersion: 1.489.1
+sources:
+    Samsara API:
+        sourceNamespace: samsara-api
+        sourceRevisionDigest: sha256:e38bdd65ec8069190f27bfafc1053ac57f7b4737500373a5b82565d4ed9127bc
+        sourceBlobDigest: sha256:ab5db1916ff429b2f482e54d5b97dcf488cd30a52828c5277b09adc6ef511456
+        tags:
+            - latest
+            - "2024-11-18"
+targets:
+    samsara:
+        source: Samsara API
+        sourceNamespace: samsara-api
+        sourceRevisionDigest: sha256:e38bdd65ec8069190f27bfafc1053ac57f7b4737500373a5b82565d4ed9127bc
+        sourceBlobDigest: sha256:ab5db1916ff429b2f482e54d5b97dcf488cd30a52828c5277b09adc6ef511456
+        codeSamplesNamespace: samsara-api-python-code-samples
+        codeSamplesRevisionDigest: sha256:bc37f95157c7ae27247afbcbeab2b6b848e633b195c5e1b84d89c454d694f66e
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Samsara API:
+            inputs:
+                - location: https://developers.samsara.com/openapi/5f4d3be3f2168e0024cb1741
+            registry:
+                location: registry.speakeasyapi.dev/cjav-dev/demo/samsara-api
+    targets:
+        samsara:
+            target: python
+            source: Samsara API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/cjav-dev/demo/samsara-api-python-code-samples
+                labelOverride:
+                    fixedValue: Python (SDK)
+                blocking: false

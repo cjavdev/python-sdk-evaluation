@@ -1,0 +1,8 @@
+# TrailerAssignmentsCreateDriverTrailerAssignmentResponseBody
+
+
+## Fields
+
+| Field                                                                                                                            | Type                                                                                                                             | Required                                                                                                                         | Description                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                                           | [models.PostDriverTrailerAssignmentsResponseBodyResponseBody](../models/postdrivertrailerassignmentsresponsebodyresponsebody.md) | :heavy_check_mark:                                                                                                               | Response after successfully submitting a Driver Trailer Assignment                                                               |

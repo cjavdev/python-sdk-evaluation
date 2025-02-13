@@ -1,0 +1,11 @@
+# V1VehicleMaintenanceJ1939
+
+J1939 based data. Null if no data is available.
+
+
+## Fields
+
+| Field                                                                                                                        | Type                                                                                                                         | Required                                                                                                                     | Description                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `check_engine_light`                                                                                                         | [Optional[models.V1VehicleMaintenanceJ1939CheckEngineLight]](../models/v1vehiclemaintenancej1939checkenginelight.md)         | :heavy_minus_sign:                                                                                                           | J1939 check engine lights.                                                                                                   |
+| `diagnostic_trouble_codes`                                                                                                   | List[[models.V1VehicleMaintenanceJ1939DiagnosticTroubleCodes](../models/v1vehiclemaintenancej1939diagnostictroublecodes.md)] | :heavy_minus_sign:                                                                                                           | J1939 DTCs.                                                                                                                  |

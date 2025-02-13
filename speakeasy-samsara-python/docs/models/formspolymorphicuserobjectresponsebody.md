@@ -1,0 +1,11 @@
+# FormsPolymorphicUserObjectResponseBody
+
+User or driver object.
+
+
+## Fields
+
+| Field                                                                                                        | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  | Example                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `id`                                                                                                         | *str*                                                                                                        | :heavy_check_mark:                                                                                           | ID of the polymorphic user.                                                                                  | 938172                                                                                                       |
+| `type`                                                                                                       | [models.FormsPolymorphicUserObjectResponseBodyType](../models/formspolymorphicuserobjectresponsebodytype.md) | :heavy_check_mark:                                                                                           | The type of the polymorphic user.  Valid values: `driver`, `user`                                            | driver                                                                                                       |

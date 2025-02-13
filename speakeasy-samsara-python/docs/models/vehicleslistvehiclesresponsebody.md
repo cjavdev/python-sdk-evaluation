@@ -1,0 +1,9 @@
+# VehiclesListVehiclesResponseBody
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `data`                                                                                           | List[[models.VehicleResponseObjectResponseBody](../models/vehicleresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                               | Multiple vehicles.                                                                               |
+| `pagination`                                                                                     | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)       | :heavy_check_mark:                                                                               | Pagination parameters.                                                                           |

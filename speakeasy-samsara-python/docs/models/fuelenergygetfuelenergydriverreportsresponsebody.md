@@ -1,0 +1,9 @@
+# FuelEnergyGetFuelEnergyDriverReportsResponseBody
+
+
+## Fields
+
+| Field                                                                                                            | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                           | [models.FuelEnergyDriverReportDataObjectResponseBody](../models/fuelenergydriverreportdataobjectresponsebody.md) | :heavy_check_mark:                                                                                               | Dictionary containing summarized driver report data.                                                             |
+| `pagination`                                                                                                     | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)                       | :heavy_check_mark:                                                                                               | Pagination parameters.                                                                                           |

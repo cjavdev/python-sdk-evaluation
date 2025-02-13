@@ -1,0 +1,11 @@
+# TrailerStatReeferFuelPercentTypeResponseBody
+
+The fuel percentage of the reefer.
+
+
+## Fields
+
+| Field                                                       | Type                                                        | Required                                                    | Description                                                 | Example                                                     |
+| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+| `time`                                                      | *str*                                                       | :heavy_check_mark:                                          | UTC timestamp in RFC 3339 format.                           | 2020-01-27T07:06:25Z                                        |
+| `value`                                                     | *int*                                                       | :heavy_check_mark:                                          | The fuel level in percentage points (e.g. `99`, `50`, etc). | 50                                                          |

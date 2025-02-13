@@ -1,0 +1,9 @@
+# HosEldEventsGetHosEldEventsResponseBody
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                 | List[[models.HosDriversEldEventObjectResponseBody](../models/hosdriverseldeventobjectresponsebody.md)] | :heavy_check_mark:                                                                                     | List of drivers and their ELD event objects data.                                                      |
+| `pagination`                                                                                           | [Optional[models.GoaPaginationResponseResponseBody]](../models/goapaginationresponseresponsebody.md)   | :heavy_minus_sign:                                                                                     | Pagination parameters.                                                                                 |

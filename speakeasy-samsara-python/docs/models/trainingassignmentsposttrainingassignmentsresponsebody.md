@@ -1,0 +1,8 @@
+# TrainingAssignmentsPostTrainingAssignmentsResponseBody
+
+
+## Fields
+
+| Field                                                                                                                          | Type                                                                                                                           | Required                                                                                                                       | Description                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                                         | List[[models.TrainingAssignmentPostResponseObjectResponseBody](../models/trainingassignmentpostresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                                                             | List of created training assignments.                                                                                          |

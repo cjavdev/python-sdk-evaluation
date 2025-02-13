@@ -1,0 +1,9 @@
+# DvirGetDvirsResponseBody
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `data`                                                                                             | List[[models.DvirStreamResponseDataResponseBody](../models/dvirstreamresponsedataresponsebody.md)] | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `pagination`                                                                                       | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)         | :heavy_check_mark:                                                                                 | Pagination parameters.                                                                             |

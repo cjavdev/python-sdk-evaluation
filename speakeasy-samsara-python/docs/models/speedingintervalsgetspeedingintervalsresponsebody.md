@@ -1,0 +1,9 @@
+# SpeedingIntervalsGetSpeedingIntervalsResponseBody
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `data`                                                                                           | List[[models.TripSpeedingIntervalsResponseBody](../models/tripspeedingintervalsresponsebody.md)] | :heavy_check_mark:                                                                               | List of speeding intervals associated with trips.                                                |
+| `pagination`                                                                                     | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)       | :heavy_check_mark:                                                                               | Pagination parameters.                                                                           |

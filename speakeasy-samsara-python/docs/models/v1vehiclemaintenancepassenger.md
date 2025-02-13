@@ -1,0 +1,11 @@
+# V1VehicleMaintenancePassenger
+
+Passenger vehicle data. Null if no data is available.
+
+
+## Fields
+
+| Field                                                                                                                                | Type                                                                                                                                 | Required                                                                                                                             | Description                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `check_engine_light`                                                                                                                 | [Optional[models.V1VehicleMaintenancePassengerCheckEngineLight]](../models/v1vehiclemaintenancepassengercheckenginelight.md)         | :heavy_minus_sign:                                                                                                                   | Passenger vehicle check engine light.                                                                                                |
+| `diagnostic_trouble_codes`                                                                                                           | List[[models.V1VehicleMaintenancePassengerDiagnosticTroubleCodes](../models/v1vehiclemaintenancepassengerdiagnostictroublecodes.md)] | :heavy_minus_sign:                                                                                                                   | Passenger vehicle DTCs.                                                                                                              |

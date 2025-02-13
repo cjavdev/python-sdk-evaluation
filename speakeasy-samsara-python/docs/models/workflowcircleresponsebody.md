@@ -1,0 +1,12 @@
+# WorkflowCircleResponseBody
+
+Information about a circular geofence. This field is only needed if the geofence is a circle.
+
+
+## Fields
+
+| Field                                                                             | Type                                                                              | Required                                                                          | Description                                                                       | Example                                                                           |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| `radius_meters`                                                                   | *int*                                                                             | :heavy_check_mark:                                                                | The radius of the circular geofence in meters.                                    | 23                                                                                |
+| `latitude`                                                                        | *Optional[float]*                                                                 | :heavy_minus_sign:                                                                | Latitude of the address. Will be geocoded from formattedAddress if not provided.  | 37.7749                                                                           |
+| `longitude`                                                                       | *Optional[float]*                                                                 | :heavy_minus_sign:                                                                | Longitude of the address. Will be geocoded from formattedAddress if not provided. | 137.7749                                                                          |

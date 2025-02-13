@@ -1,0 +1,8 @@
+# IFTACreateIFTADetailJobResponseBody
+
+
+## Fields
+
+| Field                                                                                                                    | Type                                                                                                                     | Required                                                                                                                 | Description                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                                   | [models.IftaDetailJobResponseBody](../models/iftadetailjobresponsebody.md)                                               | :heavy_check_mark:                                                                                                       |  A job representing the async generation of IFTA mileage segments. The job should be polled until the state is terminal. |

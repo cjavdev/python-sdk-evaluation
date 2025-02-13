@@ -1,0 +1,8 @@
+# SettingsGetDriverAppSettingsResponseBody
+
+
+## Fields
+
+| Field                                                                                                                                  | Type                                                                                                                                   | Required                                                                                                                               | Description                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                                                 | [models.DriverAppSettingsResponseObjectResponseBody](../models/driverappsettingsresponseobjectresponsebody.md)                         | :heavy_check_mark:                                                                                                                     | The configuration settings for the Samsara Driver App. Can be set or updated through the Samsara Settings page or the API at any time. |

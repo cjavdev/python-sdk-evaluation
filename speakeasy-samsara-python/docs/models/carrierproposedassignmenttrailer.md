@@ -1,0 +1,12 @@
+# CarrierProposedAssignmentTrailer
+
+A minified trailer object.
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                | Example                                                                                    |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `id`                                                                                       | *Optional[str]*                                                                            | :heavy_minus_sign:                                                                         | ID of the trailer.                                                                         | 123456789                                                                                  |
+| `name`                                                                                     | *Optional[str]*                                                                            | :heavy_minus_sign:                                                                         | Name of the trailer.                                                                       | Midwest Trailer #5                                                                         |
+| `external_ids`                                                                             | Dict[str, *str*]                                                                           | :heavy_minus_sign:                                                                         | The [external IDs](https://developers.samsara.com/docs/external-ids) for the given object. | {<br/>"maintenanceId": "250020",<br/>"payrollId": "ABFS18600"<br/>}                        |

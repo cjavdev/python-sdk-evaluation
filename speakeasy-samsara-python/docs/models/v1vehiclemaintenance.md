@@ -1,0 +1,12 @@
+# V1VehicleMaintenance
+
+Contains any J1939/Passenger engine light warnings and engine faults.
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  | Example                                                                                      |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `id`                                                                                         | *int*                                                                                        | :heavy_check_mark:                                                                           | ID of the vehicle.                                                                           | 112                                                                                          |
+| `j1939`                                                                                      | [Optional[models.V1VehicleMaintenanceJ1939]](../models/v1vehiclemaintenancej1939.md)         | :heavy_minus_sign:                                                                           | J1939 based data. Null if no data is available.                                              |                                                                                              |
+| `passenger`                                                                                  | [Optional[models.V1VehicleMaintenancePassenger]](../models/v1vehiclemaintenancepassenger.md) | :heavy_minus_sign:                                                                           | Passenger vehicle data. Null if no data is available.                                        |                                                                                              |

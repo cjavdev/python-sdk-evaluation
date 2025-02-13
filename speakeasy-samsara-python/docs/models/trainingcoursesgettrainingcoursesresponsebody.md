@@ -1,0 +1,9 @@
+# TrainingCoursesGetTrainingCoursesResponseBody
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                         | List[[models.TrainingCourseResponseObjectResponseBody](../models/trainingcourseresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                                             | List of training courses.                                                                                      |
+| `pagination`                                                                                                   | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)                     | :heavy_check_mark:                                                                                             | Pagination parameters.                                                                                         |

@@ -1,0 +1,11 @@
+# IssueSourceObjectResponseBody
+
+Contains information about where an issue came from.
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            | Example                                                                                                |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `type`                                                                                                 | [models.IssueSourceObjectResponseBodyType](../models/issuesourceobjectresponsebodytype.md)             | :heavy_check_mark:                                                                                     | The type of issue source.  Valid values: `form`, `ad-hoc`                                              | form                                                                                                   |
+| `id`                                                                                                   | *Optional[str]*                                                                                        | :heavy_minus_sign:                                                                                     | ID of the issue's source object. The format depends on the 'type'. Included if 'type' is not 'ad-hoc'. | 9814a1fa-f0c6-408b-bf85-51dc3bc71ac7                                                                   |

@@ -1,0 +1,12 @@
+# OrganizationInfo
+
+Information about your organization.
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      | Example                                                                                          |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `carrier_settings`                                                                               | [Optional[models.OrganizationInfoCarrierSettings]](../models/organizationinfocarriersettings.md) | :heavy_minus_sign:                                                                               | Carrier for a given organization.                                                                |                                                                                                  |
+| `id`                                                                                             | *Optional[str]*                                                                                  | :heavy_minus_sign:                                                                               | ID of the organization.                                                                          | 123                                                                                              |
+| `name`                                                                                           | *Optional[str]*                                                                                  | :heavy_minus_sign:                                                                               | Name of organization.                                                                            | Charlie's Dining Services                                                                        |

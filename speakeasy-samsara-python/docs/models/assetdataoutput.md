@@ -1,0 +1,12 @@
+# AssetDataOutput
+
+
+## Fields
+
+| Field                                                          | Type                                                           | Required                                                       | Description                                                    | Example                                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| `data_group`                                                   | *Optional[str]*                                                | :heavy_minus_sign:                                             | Name of the data group that the data output is associated with | Control Pressure                                               |
+| `data_input`                                                   | [Optional[models.AssetDataInput]](../models/assetdatainput.md) | :heavy_minus_sign:                                             | N/A                                                            |                                                                |
+| `device_id`                                                    | *Optional[str]*                                                | :heavy_minus_sign:                                             | ID of the device that the data output is configured on         | 123                                                            |
+| `id`                                                           | *Optional[str]*                                                | :heavy_minus_sign:                                             | ID of the data output                                          | 3fa85f64-5717-4562-b3fc-2c963f66afa6                           |
+| `name`                                                         | *Optional[str]*                                                | :heavy_minus_sign:                                             | Name of the data output                                        | Digital Output 1                                               |

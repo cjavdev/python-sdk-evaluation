@@ -1,0 +1,13 @@
+# V1VisionRunsResponseReportMetadata
+
+The response includes 4 additional fields that are now deprecated
+
+
+## Fields
+
+| Field                                                                             | Type                                                                              | Required                                                                          | Description                                                                       | Example                                                                           |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| `items_per_minute`                                                                | *Optional[float]*                                                                 | :heavy_minus_sign:                                                                | Returns average scanned items per minute. Should be used instead of scanRate.     | 0.1                                                                               |
+| `no_read_count`                                                                   | *Optional[int]*                                                                   | :heavy_minus_sign:                                                                | Returns no read count for the run. Should be used instead of noReadScansCount     | 181                                                                               |
+| `reject_count`                                                                    | *Optional[int]*                                                                   | :heavy_minus_sign:                                                                | Returns reject count for the run. Should be used instead of failedScansCount      | 0                                                                                 |
+| `success_count`                                                                   | *Optional[int]*                                                                   | :heavy_minus_sign:                                                                | Returns success count for the run. Should be used instead of successfulScansCount | 181                                                                               |

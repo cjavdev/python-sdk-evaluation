@@ -1,0 +1,12 @@
+# WalkaroundPhotoObjectResponseBody
+
+Walkaround's photo object
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      | Example                                                                                          |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `created_at_time`                                                                                | *str*                                                                                            | :heavy_check_mark:                                                                               | Time when walkaround's photo was created in RFC 3339 format.                                     | 2020-01-27T07:06:25Z                                                                             |
+| `name`                                                                                           | *str*                                                                                            | :heavy_check_mark:                                                                               | The name of the walkaround's photo                                                               | Name 1                                                                                           |
+| `url`                                                                                            | *str*                                                                                            | :heavy_check_mark:                                                                               | The URL to the walkaround's photo. Note: the link is available only for 24 hours after it's sent | https://s3.samsara.com/samsara-driver-media-upload/walkaround-photo-path                         |

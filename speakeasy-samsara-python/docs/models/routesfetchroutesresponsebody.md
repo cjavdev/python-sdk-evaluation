@@ -1,0 +1,9 @@
+# RoutesFetchRoutesResponseBody
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `data`                                                                                               | List[[models.BaseRouteResponseObjectResponseBody](../models/baserouteresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                                   | An array containing multiple routes.                                                                 |
+| `pagination`                                                                                         | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)           | :heavy_check_mark:                                                                                   | Pagination parameters.                                                                               |

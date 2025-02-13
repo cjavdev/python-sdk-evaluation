@@ -1,0 +1,17 @@
+# TireFaultCodeDetailsObjectRequestBodySpecificTireFaultCodes
+
+The specific tire fault codes.  Valid values: `TIRE_ALERT_ACROSS_AXLE_FAULT`, `TIRE_ALERT_EXTREME_OVER_PRESSURE`, `TIRE_ALERT_EXTREME_UNDER_PRESSURE`, `TIRE_ALERT_INVALID`, `TIRE_ALERT_LEAK_DETECTED`, `TIRE_ALERT_OVER_PRESSURE`, `TIRE_ALERT_OVER_TEMPERATURE`, `TIRE_ALERT_UNDER_PRESSURE`
+
+
+## Values
+
+| Name                                | Value                               |
+| ----------------------------------- | ----------------------------------- |
+| `TIRE_ALERT_ACROSS_AXLE_FAULT`      | TIRE_ALERT_ACROSS_AXLE_FAULT        |
+| `TIRE_ALERT_EXTREME_OVER_PRESSURE`  | TIRE_ALERT_EXTREME_OVER_PRESSURE    |
+| `TIRE_ALERT_EXTREME_UNDER_PRESSURE` | TIRE_ALERT_EXTREME_UNDER_PRESSURE   |
+| `TIRE_ALERT_INVALID`                | TIRE_ALERT_INVALID                  |
+| `TIRE_ALERT_LEAK_DETECTED`          | TIRE_ALERT_LEAK_DETECTED            |
+| `TIRE_ALERT_OVER_PRESSURE`          | TIRE_ALERT_OVER_PRESSURE            |
+| `TIRE_ALERT_OVER_TEMPERATURE`       | TIRE_ALERT_OVER_TEMPERATURE         |
+| `TIRE_ALERT_UNDER_PRESSURE`         | TIRE_ALERT_UNDER_PRESSURE           |

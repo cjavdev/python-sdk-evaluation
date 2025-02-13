@@ -1,0 +1,11 @@
+# DriverAppNotificationObjectResponseBody
+
+Driver app notification settings
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `in_app_notification_options`                                                                                          | [Optional[models.InAppNotificationOptionsObjectResponseBody]](../models/inappnotificationoptionsobjectresponsebody.md) | :heavy_minus_sign:                                                                                                     | Options for in-app notifications                                                                                       |
+| `push_notification_options`                                                                                            | [Optional[models.PushNotificationOptionsObjectResponseBody]](../models/pushnotificationoptionsobjectresponsebody.md)   | :heavy_minus_sign:                                                                                                     | Options for push notifications                                                                                         |

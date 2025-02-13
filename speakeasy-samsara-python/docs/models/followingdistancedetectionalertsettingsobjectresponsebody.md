@@ -1,0 +1,13 @@
+# FollowingDistanceDetectionAlertSettingsObjectResponseBody
+
+Enables AI detection of tailgating or unsafe following distances, surfaces events in Safety Inbox, and enables configurable alerts. By default, Following Distance will impact the drivers' safety score.
+
+
+## Fields
+
+| Field                                                                       | Type                                                                        | Required                                                                    | Description                                                                 | Example                                                                     |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| `duration_ms`                                                               | *Optional[int]*                                                             | :heavy_minus_sign:                                                          | Duration of following distance at which to alert, measured in milliseconds. | 15000                                                                       |
+| `has_in_cab_audio_alerts_enabled`                                           | *Optional[bool]*                                                            | :heavy_minus_sign:                                                          | Indicates whether in-cab audio alerts for following distance are turned on. | true                                                                        |
+| `is_enabled`                                                                | *Optional[bool]*                                                            | :heavy_minus_sign:                                                          | Indicates whether AI event detection for following distance is turned on.   | true                                                                        |
+| `speeding_threshold_mph`                                                    | *Optional[float]*                                                           | :heavy_minus_sign:                                                          | Alert when speed is over this many miles per hour.                          | 35                                                                          |

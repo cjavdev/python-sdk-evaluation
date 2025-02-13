@@ -1,0 +1,10 @@
+# WorkflowPolygonResponseBody
+
+Information about a polygon geofence. This field is only needed if the geofence is a polygon.
+
+
+## Fields
+
+| Field                                                                                                                                                          | Type                                                                                                                                                           | Required                                                                                                                                                       | Description                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `vertices`                                                                                                                                                     | List[[models.VertexResponseBody](../models/vertexresponsebody.md)]                                                                                             | :heavy_minus_sign:                                                                                                                                             | The vertices of the polygon geofence. These geofence vertices describe the perimeter of the polygon, and must consist of at least 3 vertices and less than 40. |

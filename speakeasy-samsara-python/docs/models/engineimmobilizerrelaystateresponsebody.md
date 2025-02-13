@@ -1,0 +1,11 @@
+# EngineImmobilizerRelayStateResponseBody
+
+An engine immobilizer relay state.
+
+
+## Fields
+
+| Field                                                                                                      | Type                                                                                                       | Required                                                                                                   | Description                                                                                                | Example                                                                                                    |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `id`                                                                                                       | [models.EngineImmobilizerRelayStateResponseBodyID](../models/engineimmobilizerrelaystateresponsebodyid.md) | :heavy_check_mark:                                                                                         | The ID of the relay  Valid values: `relay1`, `relay2`                                                      | relay1                                                                                                     |
+| `is_open`                                                                                                  | *bool*                                                                                                     | :heavy_check_mark:                                                                                         | Whether the relay is open.                                                                                 | false                                                                                                      |

@@ -1,0 +1,12 @@
+# V1VisionRunsByCameraResponse
+
+
+## Fields
+
+| Field                                                          | Type                                                           | Required                                                       | Description                                                    | Example                                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| `device_id`                                                    | *Optional[int]*                                                | :heavy_minus_sign:                                             | N/A                                                            | 1234512345123                                                  |
+| `ended_at_ms`                                                  | *Optional[int]*                                                | :heavy_minus_sign:                                             | N/A                                                            | 0                                                              |
+| `program`                                                      | [Optional[models.Program]](../models/program.md)               | :heavy_minus_sign:                                             | N/A                                                            |                                                                |
+| `report_metadata`                                              | [Optional[models.ReportMetadata]](../models/reportmetadata.md) | :heavy_minus_sign:                                             | N/A                                                            |                                                                |
+| `started_at_ms`                                                | *Optional[int]*                                                | :heavy_minus_sign:                                             | N/A                                                            | 1553808606097                                                  |

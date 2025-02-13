@@ -1,0 +1,8 @@
+# LiveSharingLinksUpdateLiveSharingLinkResponseBody
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                             | [models.LiveSharingLinkFullResponseObjectResponseBody](../models/livesharinglinkfullresponseobjectresponsebody.md) | :heavy_check_mark:                                                                                                 | Live Sharing Link object                                                                                           |

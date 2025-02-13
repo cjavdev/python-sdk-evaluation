@@ -1,0 +1,8 @@
+# TrailerAssignmentsUpdateDriverTrailerAssignmentResponseBody
+
+
+## Fields
+
+| Field                                                                                                                              | Type                                                                                                                               | Required                                                                                                                           | Description                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                                             | [models.PatchDriverTrailerAssignmentsResponseBodyResponseBody](../models/patchdrivertrailerassignmentsresponsebodyresponsebody.md) | :heavy_check_mark:                                                                                                                 | Response after successfully updating a Driver Trailer Assignment                                                                   |

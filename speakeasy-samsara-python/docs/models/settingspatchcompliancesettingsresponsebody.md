@@ -1,0 +1,8 @@
+# SettingsPatchComplianceSettingsResponseBody
+
+
+## Fields
+
+| Field                                                                                                            | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                           | [models.SettingsComplianceResponseObjectResponseBody](../models/settingscomplianceresponseobjectresponsebody.md) | :heavy_check_mark:                                                                                               | Information set here will be displayed in roadside inspections and in the transferred US DOT datafile.           |

@@ -1,0 +1,11 @@
+# TrainingLearnerObjectResponseBody
+
+Learner that is associated with the training assignment. Only driver learners are supported currently.
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        | Example                                                                                            |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `id`                                                                                               | *str*                                                                                              | :heavy_check_mark:                                                                                 | ID of the polymorphic user.                                                                        | 938172                                                                                             |
+| `type`                                                                                             | [models.TrainingLearnerObjectResponseBodyType](../models/traininglearnerobjectresponsebodytype.md) | :heavy_check_mark:                                                                                 | The type of the polymorphic user.  Valid values: `driver`                                          | driver                                                                                             |

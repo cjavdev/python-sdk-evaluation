@@ -1,0 +1,11 @@
+# SpeedingSettingsObjectResponseBody
+
+Enables custom speeding levels.
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           | Example                                                                                               |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `severity_levels`                                                                                     | List[[models.SpeedingSeverityLevelResponseBody](../models/speedingseveritylevelresponsebody.md)]      | :heavy_minus_sign:                                                                                    | The speeding severity levels for an organization.                                                     |                                                                                                       |
+| `unit`                                                                                                | [Optional[models.Unit]](../models/unit.md)                                                            | :heavy_minus_sign:                                                                                    | The unit of measurement for speeding  Valid values: `milesPerHour`, `kilometersPerHour`, `percentage` | milesPerHour                                                                                          |

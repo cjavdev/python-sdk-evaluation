@@ -1,0 +1,8 @@
+# DriverVehicleAssignmentsV2UpdateDriverVehicleAssignmentResponseBody
+
+
+## Fields
+
+| Field                                                                                                                                  | Type                                                                                                                                   | Required                                                                                                                               | Description                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                                                 | [models.PatchDriverVehicleAssignmentsV2ResponseBodyResponseBody](../models/patchdrivervehicleassignmentsv2responsebodyresponsebody.md) | :heavy_check_mark:                                                                                                                     | Response after successfully updating a Driver Assignment                                                                               |

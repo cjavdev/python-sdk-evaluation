@@ -1,0 +1,11 @@
+# TrailerStatReeferAlarmTypeResponseBody
+
+Alarms that have been emitted by the reefer.
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        | Example                                                                                            |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `alarms`                                                                                           | List[[models.TrailerStatReeferAlarmResponseBody](../models/trailerstatreeferalarmresponsebody.md)] | :heavy_check_mark:                                                                                 | The alarms reported by the reefer.                                                                 |                                                                                                    |
+| `time`                                                                                             | *str*                                                                                              | :heavy_check_mark:                                                                                 | UTC timestamp in RFC 3339 format.                                                                  | 2020-01-27T07:06:25Z                                                                               |

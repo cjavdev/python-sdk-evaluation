@@ -1,0 +1,11 @@
+# VehicleStatsSpreaderPlowStatus
+
+Snow plow status (`Up` or `Down`), as read from the material spreader. Note: this is separate from plow status defined via auxInput.
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    | Example                                                                                        |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `time`                                                                                         | *str*                                                                                          | :heavy_check_mark:                                                                             | UTC timestamp in RFC 3339 format. Example: `2020-01-27T07:06:25Z`.                             | 2020-01-27T07:06:25Z                                                                           |
+| `value`                                                                                        | [models.VehicleStatsSpreaderPlowStatusValue](../models/vehiclestatsspreaderplowstatusvalue.md) | :heavy_check_mark:                                                                             | Snow plow status, as read from the material spreader                                           | Down                                                                                           |

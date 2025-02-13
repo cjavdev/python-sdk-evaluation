@@ -1,0 +1,9 @@
+# CoachingSessionsGetCoachingSessionsResponseBody
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                 | List[[models.CoachingSessionsResponseResponseBody](../models/coachingsessionsresponseresponsebody.md)] | :heavy_check_mark:                                                                                     | List of coaching sessions objects.                                                                     |
+| `pagination`                                                                                           | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)             | :heavy_check_mark:                                                                                     | Pagination parameters.                                                                                 |

@@ -1,0 +1,12 @@
+# WorkflowDvirSubmittedResponseObjectResponseBody
+
+Details specific to DVIR Submitted.
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `driver`                                                                                                               | [Optional[models.GoaDriverTinyResponseResponseBody]](../models/goadrivertinyresponseresponsebody.md)                   | :heavy_minus_sign:                                                                                                     | A minified driver object. This object is only returned if the route is assigned to the driver.                         |
+| `dvir`                                                                                                                 | [Optional[models.WorkflowDvirObjectResponseBody]](../models/workflowdvirobjectresponsebody.md)                         | :heavy_minus_sign:                                                                                                     | A DVIR description                                                                                                     |
+| `vehicle`                                                                                                              | [Optional[models.VehicleWithGatewayTinyResponseResponseBody]](../models/vehiclewithgatewaytinyresponseresponsebody.md) | :heavy_minus_sign:                                                                                                     |  A minified vehicle object. This object is only returned if the route is assigned to the vehicle.                      |

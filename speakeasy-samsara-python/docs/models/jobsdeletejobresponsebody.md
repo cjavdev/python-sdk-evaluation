@@ -1,0 +1,9 @@
+# JobsDeleteJobResponseBody
+
+
+## Fields
+
+| Field                                | Type                                 | Required                             | Description                          | Example                              |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| `id`                                 | *Optional[str]*                      | :heavy_minus_sign:                   | The job id of the failed request     | 1553                                 |
+| `uuid`                               | *Optional[str]*                      | :heavy_minus_sign:                   | The uuid of the failed request       | 8d218e6c-7a16-4f9f-90f7-cc1d93b9e596 |

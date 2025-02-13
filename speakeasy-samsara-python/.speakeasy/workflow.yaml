@@ -1,0 +1,18 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Samsara API:
+        inputs:
+            - location: https://developers.samsara.com/openapi/5f4d3be3f2168e0024cb1741
+        registry:
+            location: registry.speakeasyapi.dev/cjav-dev/demo/samsara-api
+targets:
+    samsara:
+        target: python
+        source: Samsara API
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/cjav-dev/demo/samsara-api-python-code-samples
+            labelOverride:
+                fixedValue: Python (SDK)
+            blocking: false

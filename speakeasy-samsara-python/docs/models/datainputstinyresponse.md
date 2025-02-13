@@ -1,0 +1,9 @@
+# DataInputsTinyResponse
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `data`                                                                                              | List[[models.DataInputTinyResponse](../models/datainputtinyresponse.md)]                            | :heavy_minus_sign:                                                                                  | An array of data input objects. Each object contains the data input's name, ID, and other metadata. |
+| `pagination`                                                                                        | [Optional[models.PaginationResponse]](../models/paginationresponse.md)                              | :heavy_minus_sign:                                                                                  | Pagination parameters.                                                                              |

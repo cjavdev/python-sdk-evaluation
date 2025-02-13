@@ -1,0 +1,12 @@
+# DefectVehicle
+
+A minified vehicle object.
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                | Example                                                                                    |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `external_ids`                                                                             | Dict[str, *str*]                                                                           | :heavy_minus_sign:                                                                         | The [external IDs](https://developers.samsara.com/docs/external-ids) for the given object. | {<br/>"maintenanceId": "250020",<br/>"payrollId": "ABFS18600"<br/>}                        |
+| `id`                                                                                       | *Optional[str]*                                                                            | :heavy_minus_sign:                                                                         | ID of the vehicle.                                                                         | 123456789                                                                                  |
+| `name`                                                                                     | *Optional[str]*                                                                            | :heavy_minus_sign:                                                                         | Name of the vehicle.                                                                       | Midwest Truck #4                                                                           |

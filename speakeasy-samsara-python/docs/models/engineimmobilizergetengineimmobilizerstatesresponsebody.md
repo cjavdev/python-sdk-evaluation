@@ -1,0 +1,9 @@
+# EngineImmobilizerGetEngineImmobilizerStatesResponseBody
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `data`                                                                                             | List[[models.EngineImmobilizerStateResponseBody](../models/engineimmobilizerstateresponsebody.md)] | :heavy_check_mark:                                                                                 | A list of engine immobilizer states in ascending order of happenedAtTime.                          |
+| `pagination`                                                                                       | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)         | :heavy_check_mark:                                                                                 | Pagination parameters.                                                                             |

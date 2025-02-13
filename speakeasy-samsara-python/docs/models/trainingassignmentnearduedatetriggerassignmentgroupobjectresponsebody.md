@@ -1,0 +1,11 @@
+# TrainingAssignmentNearDueDateTriggerAssignmentGroupObjectResponseBody
+
+An assignment group of a specific course or a category can be selected for an alert.
+
+
+## Fields
+
+| Field                                                          | Type                                                           | Required                                                       | Description                                                    | Example                                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| `assignment_group_type`                                        | [models.AssignmentGroupType](../models/assignmentgrouptype.md) | :heavy_check_mark:                                             | Assignment group type.  Valid values: `CATEGORY`, `COURSE`     | CATEGORY                                                       |
+| `assignment_group_uuid`                                        | *str*                                                          | :heavy_check_mark:                                             | The unique ID of the assignment group.                         |                                                                |

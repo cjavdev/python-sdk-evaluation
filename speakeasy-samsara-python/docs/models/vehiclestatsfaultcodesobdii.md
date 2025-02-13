@@ -1,0 +1,11 @@
+# VehicleStatsFaultCodesOBDII
+
+Vehicle fault codes for passenger vehicles.
+
+
+## Fields
+
+| Field                                                                                                      | Type                                                                                                       | Required                                                                                                   | Description                                                                                                | Example                                                                                                    |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `check_engine_light_is_on`                                                                                 | *Optional[bool]*                                                                                           | :heavy_minus_sign:                                                                                         | True if the check engine light is illuminated (MIL status field is nonzero for any faults).                | true                                                                                                       |
+| `diagnostic_trouble_codes`                                                                                 | List[[models.VehicleStatsFaultCodesOBDIITroubleCode](../models/vehiclestatsfaultcodesobdiitroublecode.md)] | :heavy_minus_sign:                                                                                         | Diagnostic trouble codes for passenger vehicles.                                                           |                                                                                                            |

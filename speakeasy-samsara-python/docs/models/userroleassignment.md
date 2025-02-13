@@ -1,0 +1,12 @@
+# UserRoleAssignment
+
+A role that applies to a user. If the role has a `tag`, then the role applies for that tag. If there is no `tag`, then the role applies at the organizational level. A user may have many tag-specific roles, but may only have one organizational level role. If the organizational level role has higher privileges than a tag-specific role, then the organizational role privileges will take precedence.
+
+
+## Fields
+
+| Field                                                                         | Type                                                                          | Required                                                                      | Description                                                                   | Example                                                                       |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| `expire_at`                                                                   | *Optional[str]*                                                               | :heavy_minus_sign:                                                            | For user account expiration, the access expiration datetime in RFC3339 format | 2025-08-13T19:08:25Z                                                          |
+| `role`                                                                        | [Optional[models.UserRole]](../models/userrole.md)                            | :heavy_minus_sign:                                                            | A user role object.                                                           |                                                                               |
+| `tag`                                                                         | [Optional[models.TagTinyResponse]](../models/tagtinyresponse.md)              | :heavy_minus_sign:                                                            | A minified tag object                                                         |                                                                               |

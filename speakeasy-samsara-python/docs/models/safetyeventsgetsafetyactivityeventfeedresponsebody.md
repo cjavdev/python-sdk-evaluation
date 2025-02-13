@@ -1,0 +1,9 @@
+# SafetyEventsGetSafetyActivityEventFeedResponseBody
+
+
+## Fields
+
+| Field                                                                                                        | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                       | List[[models.SafetyEventActivityFeedItemResponseBody](../models/safetyeventactivityfeeditemresponsebody.md)] | :heavy_check_mark:                                                                                           | Paginated safety event activity feed limited to 10 events.                                                   |
+| `pagination`                                                                                                 | [models.GoaPaginationResponseResponseBody](../models/goapaginationresponseresponsebody.md)                   | :heavy_check_mark:                                                                                           | Pagination parameters.                                                                                       |

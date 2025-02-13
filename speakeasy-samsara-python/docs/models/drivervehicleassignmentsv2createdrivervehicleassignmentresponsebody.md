@@ -1,0 +1,8 @@
+# DriverVehicleAssignmentsV2CreateDriverVehicleAssignmentResponseBody
+
+
+## Fields
+
+| Field                                                                                                                                | Type                                                                                                                                 | Required                                                                                                                             | Description                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                                               | [models.PostDriverVehicleAssignmentsV2ResponseBodyResponseBody](../models/postdrivervehicleassignmentsv2responsebodyresponsebody.md) | :heavy_check_mark:                                                                                                                   | Response after successfully submitting a Driver Assignment                                                                           |

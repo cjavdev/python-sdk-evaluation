@@ -1,0 +1,11 @@
+# FormsDateTimeValueObjectResponseBody
+
+The value of a datetime form input field.
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              | Example                                                                                                  |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                   | [models.FormsDateTimeValueObjectResponseBodyType](../models/formsdatetimevalueobjectresponsebodytype.md) | :heavy_check_mark:                                                                                       | The type of datetime format.  Valid values: `datetime`, `date`, `time`                                   | datetime                                                                                                 |
+| `value`                                                                                                  | [date](https://docs.python.org/3/library/datetime.html#date-objects)                                     | :heavy_check_mark:                                                                                       | UTC timestamp in RFC 3339 format.                                                                        | 2024-08-08T18:53:23Z                                                                                     |

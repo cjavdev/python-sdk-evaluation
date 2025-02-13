@@ -1,0 +1,8 @@
+# FormSubmissionsGetFormSubmissionsResponseBody
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                         | List[[models.FormSubmissionResponseObjectResponseBody](../models/formsubmissionresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                                             | List of form submissions.                                                                                      |

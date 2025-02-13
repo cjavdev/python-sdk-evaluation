@@ -1,0 +1,9 @@
+# LocationAndSpeedGetLocationAndSpeedResponseBody
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                         | List[[models.LocationAndSpeedResponseResponseBody](../models/locationandspeedresponseresponsebody.md)]         | :heavy_check_mark:                                                                                             | List of location and speed objects.                                                                            |
+| `pagination`                                                                                                   | [models.GoaPaginationWithTokensResponseResponseBody](../models/goapaginationwithtokensresponseresponsebody.md) | :heavy_check_mark:                                                                                             | Pagination parameters.                                                                                         |

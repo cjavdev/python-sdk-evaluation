@@ -1,0 +1,11 @@
+# VehicleSensorConfigurationDoor
+
+A door monitor configuration for a vehicle
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    | Example                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `position`                                                                                                     | [Optional[models.VehicleSensorConfigurationDoorPosition]](../models/vehiclesensorconfigurationdoorposition.md) | :heavy_minus_sign:                                                                                             | Position of the door monitor on the vehicle                                                                    |                                                                                                                |
+| `sensor`                                                                                                       | [Optional[models.Sensor]](../models/sensor.md)                                                                 | :heavy_minus_sign:                                                                                             | N/A                                                                                                            |                                                                                                                |

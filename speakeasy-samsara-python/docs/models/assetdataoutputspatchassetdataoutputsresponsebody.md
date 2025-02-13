@@ -1,0 +1,8 @@
+# AssetDataOutputsPatchAssetDataOutputsResponseBody
+
+
+## Fields
+
+| Field                                                                                                                        | Type                                                                                                                         | Required                                                                                                                     | Description                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                                       | List[[models.PatchAssetDataOutputsSingleResponseResponseBody](../models/patchassetdataoutputssingleresponseresponsebody.md)] | :heavy_check_mark:                                                                                                           | List of responses for each data output from the original request.                                                            |

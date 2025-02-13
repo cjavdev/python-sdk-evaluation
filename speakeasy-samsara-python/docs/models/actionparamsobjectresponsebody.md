@@ -1,0 +1,12 @@
+# ActionParamsObjectResponseBody
+
+The action type specific details. Set webhookIds for Slack or Webhook actions. Set recipients for Notifications. Set driverAppNotification for Driver App Push. Other action types don't need to set a param.
+
+
+## Fields
+
+| Field                                                                                                            | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `driver_app_notification`                                                                                        | [Optional[models.DriverAppNotificationObjectResponseBody]](../models/driverappnotificationobjectresponsebody.md) | :heavy_minus_sign:                                                                                               | Driver app notification settings                                                                                 |
+| `recipients`                                                                                                     | List[[models.RecipientObjectResponseBody](../models/recipientobjectresponsebody.md)]                             | :heavy_minus_sign:                                                                                               | Recipient of the action.                                                                                         |
+| `webhooks`                                                                                                       | [Optional[models.WebhookParamsObjectResponseBody]](../models/webhookparamsobjectresponsebody.md)                 | :heavy_minus_sign:                                                                                               | The webhook configuration for an Action.                                                                         |

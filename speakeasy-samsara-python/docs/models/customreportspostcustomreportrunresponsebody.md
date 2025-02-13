@@ -1,0 +1,8 @@
+# CustomReportsPostCustomReportRunResponseBody
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                             | [models.PostCustomReportRunResponseObjectResponseBody](../models/postcustomreportrunresponseobjectresponsebody.md) | :heavy_check_mark:                                                                                                 | Full post custom report run response object                                                                        |

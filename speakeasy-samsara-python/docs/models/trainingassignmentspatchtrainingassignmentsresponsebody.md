@@ -1,0 +1,8 @@
+# TrainingAssignmentsPatchTrainingAssignmentsResponseBody
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                                 | List[[models.TrainingAssignmentResponseObjectResponseBody](../models/trainingassignmentresponseobjectresponsebody.md)] | :heavy_check_mark:                                                                                                     | List of updated training assignments.                                                                                  |

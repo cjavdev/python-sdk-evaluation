@@ -1,0 +1,10 @@
+# V1VisionRunByCameraResponseInspectionResults
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          | Example                                                              |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `capture_at_ms`                                                      | *Optional[float]*                                                    | :heavy_minus_sign:                                                   | N/A                                                                  | 1553811994730                                                        |
+| `result`                                                             | *Optional[str]*                                                      | :heavy_minus_sign:                                                   | N/A                                                                  | PASS                                                                 |
+| `step_results`                                                       | List[[models.V1VisionStepResults](../models/v1visionstepresults.md)] | :heavy_minus_sign:                                                   | N/A                                                                  |                                                                      |

@@ -1,0 +1,10 @@
+# HarshEventTriggerDetailsObjectRequestBody
+
+Details specific to Harsh Events
+
+
+## Fields
+
+| Field                                                                                                                      | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                | Example                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `types`                                                                                                                    | List[[models.HarshEventTriggerDetailsObjectRequestBodyTypes](../models/harsheventtriggerdetailsobjectrequestbodytypes.md)] | :heavy_check_mark:                                                                                                         | On which harsh events to trigger on.                                                                                       | [<br/>"haFoodPolicy",<br/>"haPolicyDetector",<br/>"haRolloverProtectionEngineControlActivated",<br/>"haLaneDeparture"<br/>] |
