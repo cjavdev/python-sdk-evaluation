@@ -10,6 +10,20 @@ This repository is a collection of three different Python SDKs from different ve
 - [samsara-python](./samsara-python)
 - [samsara-python-sdk](./samsara-python-sdk)
 
+## Before you begin
+
+Make a new `.env` file in the root of the project and add your Samsara API key.
+
+```bash
+mv .env.example .env
+```
+
+Set your Samsara API key in the `.env` file.
+
+```yaml
+SAMSARA_API_KEY=your_api_key
+```
+
 ## Getting started
 
 From the root of the project, setup a python environment. Python 3.11 is preferred (when using 3.13 you may need to set some environment variables to enable the GIL).
