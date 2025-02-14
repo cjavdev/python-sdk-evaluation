@@ -11,7 +11,6 @@ client = Samsara(token=os.getenv("SAMSARA_API_KEY"))
 org_info = client.organization_info.list()
 print(org_info)
 
-
 sync_timer_start = datetime.now()
 configurations = client.alerts.configurations.get()
 for configuration in configurations.data:
@@ -26,7 +25,6 @@ for configuration in configurations.data:
 
 sync_timer_end = datetime.now()
 print("Sync Time taken: ", sync_timer_end - sync_timer_start)
-
 
 
 # Asynchronous:
