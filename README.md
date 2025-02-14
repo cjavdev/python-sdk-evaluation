@@ -41,3 +41,9 @@ python stainless_example.py
 python speakeasy_example.py
 python fern_example.py
 ```
+
+## Run the server
+
+```bash
+python server.py
+```
