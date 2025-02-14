@@ -6,9 +6,9 @@ This repository is a collection of three different Python SDKs from different ve
 
 ## The SDKs
 
-- [fern_samsara](./fern_samsara)
-- [samsara-python](./samsara-python)
-- [samsara-python-sdk](./samsara-python-sdk)
+- [Fern](./fern_samsara)
+- [Stainless](./stainless_samsara)
+- [Speakeasy](./speakeasy_samsara)
 
 ## Before you begin
 
