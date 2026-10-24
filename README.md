@@ -26,7 +26,7 @@ SAMSARA_API_KEY=your_api_key
 
 ## Getting started
 
-From the root of the project, setup a python environment. Python 3.11 is preferred (when using 3.13 you may need to set some environment variables to enable the GIL).
+From the root of the project, setup a python environment. Python 3.15 is preferred (see `.tool-versions`).
 
 ```bash
 python -m venv venv
